@@ -78,6 +78,3 @@ Fwitter is made possible by contributions from:
 - [Contributor 3](https://github.com/Contributor3)
 - [Contributor 4](https://github.com/Contributor4)
 
-### Visitors Count
-
-![Visitor Count](https://profile-counter.glitch.me/awkward-py/Twitter-clone/count.svg)
