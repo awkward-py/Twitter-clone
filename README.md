@@ -14,19 +14,9 @@ Welcome to **Fwitter**, a Twitter clone built using Flutter and powered by Fireb
 
 For a comprehensive list of app features, you can refer to the project section [here](https://github.com/awkward-py/Twitter-clone/projects/1).
 
-### Download Fwitter
-
-You can download Fwitter from the Google Play Store:
-
-<a href="https://play.google.com/store/apps/details?id=com.awkward-py.twitterclone">
-  <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" width="200"></img>
-</a>
 
 ### Directory Structure
 
-<details>
-     <summary> Click to expand </summary>
-  
 ```
 |-- lib
 |   |-- helper
@@ -153,7 +143,6 @@ You can download Fwitter from the Google Play Store:
 |-- pubspec.yaml
 ```
 
-</details>
 
 ### Getting Started
 
