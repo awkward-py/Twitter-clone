@@ -5,11 +5,6 @@ Welcome to **Fwitter**, a Twitter clone built using Flutter and powered by Fireb
 ![GitHub stars](https://img.shields.io/github/stars/awkward-py/Twitter-clone?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/awkward-py/Twitter-clone?style=social)
 
-### Screenshots
-
-Here are some screenshots of the app in action:
-
-[Insert screenshots here]
 
 ### Features
 
@@ -29,7 +24,136 @@ You can download Fwitter from the Google Play Store:
 
 ### Directory Structure
 
-[Insert directory structure here]
+<details>
+     <summary> Click to expand </summary>
+  
+```
+|-- lib
+|   |-- helper
+|   |   |-- constant.dart
+|   |   |-- customRoute.dart
+|   |   |-- enum.dart
+|   |   |-- routes.dart
+|   |   |-- theme.dart
+|   |   |-- utility.dart
+|   |   '-- validator.dart
+|   |-- main.dart
+|   |-- model
+|   |   |-- chatModel.dart
+|   |   |-- feedModel.dart
+|   |   |-- notificationModel.dart
+|   |   '-- user.dart
+|   |-- page
+|   |   |-- Auth
+|   |   |   |-- forgetPasswordPage.dart
+|   |   |   |-- selectAuthMethod.dart
+|   |   |   |-- signin.dart
+|   |   |   |-- signup.dart
+|   |   |   |-- verifyEmail.dart
+|   |   |   '-- widget
+|   |   |       '-- googleLoginButton.dart
+|   |   |-- common
+|   |   |   |-- sidebar.dart
+|   |   |   |-- splash.dart
+|   |   |   |-- usersListPage.dart
+|   |   |   '-- widget
+|   |   |       '-- userListWidget.dart
+|   |   |-- feed
+|   |   |   |-- composeTweet
+|   |   |   |   |-- composeTweet.dart
+|   |   |   |   |-- state
+|   |   |   |   |   '-- composeTweetState.dart
+|   |   |   |   '-- widget
+|   |   |   |       |-- composeBottomIconWidget.dart
+|   |   |   |       |-- composeTweetImage.dart
+|   |   |   |       '-- widgetView.dart
+|   |   |   |-- feedPage.dart
+|   |   |   |-- feedPostDetail.dart
+|   |   |   '-- imageViewPage.dart
+|   |   |-- homePage.dart
+|   |   |-- message
+|   |   |   |-- chatListPage.dart
+|   |   |   |-- chatScreenPage.dart
+|   |   |   |-- conversationInformation
+|   |   |   |   '-- conversationInformation.dart
+|   |   |   '-- newMessagePage.dart
+|   |   |-- notification
+|   |   |   '-- notificationPage.dart
+|   |   |-- profile
+|   |   |   |-- EditProfilePage.dart
+|   |   |   |-- follow
+|   |   |   |   |-- followerListPage.dart
+|   |   |   |   '-- followingListPage.dart
+|   |   |   |-- profileImageView.dart
+|   |   |   |-- profilePage.dart
+|   |   |   '-- widgets
+|   |   |       '-- tabPainter.dart
+|   |   |-- search
+|   |   |   '-- SearchPage.dart
+|   |   '-- settings
+|   |       |-- accountSettings
+|   |       |   |-- about
+|   |       |   |   '-- aboutTwitter.dart
+|   |       |   |-- accessibility
+|   |       |   |   '-- accessibility.dart
+|   |       |   |-- accountSettingsPage.dart
+|   |       |   |-- contentPrefrences
+|   |       |   |   |-- contentPreference.dart
+|   |       |   |   '-- trends
+|   |       |   |       '-- trendsPage.dart
+|   |       |   |-- dataUsage
+|   |       |   |   '-- dataUsagePage.dart
+|   |       |   |-- displaySettings
+|   |       |   |   '-- displayAndSoundPage.dart
+|   |       |   |-- notifications
+|   |       |   |   '-- notificationPage.dart
+|   |       |   |-- privacyAndSafety
+|   |       |   |   |-- directMessage
+|   |       |   |   |   '-- directMessage.dart
+|   |       |   |   '-- privacyAndSafetyPage.dart
+|   |       |   '-- proxy
+|   |       |       '-- proxyPage.dart
+|   |       |-- settingsAndPrivacyPage.dart
+|   |       '-- widgets
+|   |           |-- headerWidget.dart
+|   |           |-- settingsAppbar.dart
+|   |           '-- settingsRowWidget.dart
+|   |-- state
+|   |   |-- appState.dart
+|   |   |-- authState.dart
+|   |   |-- chats
+|   |   |   '-- chatState.dart
+|   |   |-- feedState.dart
+|   |   |-- notificationState.dart
+|   |   '-- searchState.dart
+|   '-- widgets
+|       |-- bottomMenuBar
+|       |   |-- HalfPainter.dart
+|       |   |-- bottomMenuBar.dart
+|       |   '-- tabItem.dart
+|       |-- customAppBar.dart
+|       |-- customWidgets.dart
+|       |-- newWidget
+|       |   |-- customClipper.dart
+|       |   |-- customLoader.dart
+|       |   |-- customProgressbar.dart
+|       |   |-- customUrlText.dart
+|       |   |-- emptyList.dart
+|       |   |-- rippleButton.dart
+|       |   '-- title_text.dart
+|       '-- tweet
+|           |-- tweet.dart
+|           '-- widgets
+|               |-- parentTweet.dart
+|               |-- retweetWidget.dart
+|               |-- tweetBottomSheet.dart
+|               |-- tweetIconsRow.dart
+|               |-- tweetImage.dart
+|               '-- unavailableTweet.dart
+|-- pubspec.yaml
+```
+
+</details>
 
 ### Getting Started
 
@@ -61,20 +185,7 @@ We welcome contributions to Fwitter. If you want to add a new feature or make ch
 ### Created & Maintained By
 
 - [Awkward-py](https://github.com/awkward-py)
-  - [Twitter](https://www.twitter.com/awkward_py)
+  - [Twitter](https://www.twitter.com/awkwardpy)
 
-If you found this project helpful or learned from the source code, consider supporting me by buying me a cup of coffee:
-
-- [PayPal](https://paypal.me/awkwardpy)
 
 You can also nominate me for the Github Star developer program [here](https://stars.github.com/nominate).
-
-### Contributors
-
-Fwitter is made possible by contributions from:
-
-- [Contributor 1](https://github.com/Contributor1)
-- [Contributor 2](https://github.com/Contributor2)
-- [Contributor 3](https://github.com/Contributor3)
-- [Contributor 4](https://github.com/Contributor4)
-
