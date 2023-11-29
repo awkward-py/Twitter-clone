@@ -176,5 +176,3 @@ We welcome contributions to Fwitter. If you want to add a new feature or make ch
 - [Awkward-py](https://github.com/awkward-py)
   - [Twitter](https://www.twitter.com/awkwardpy)
 
-
-You can also nominate me for the Github Star developer program [here](https://stars.github.com/nominate).
