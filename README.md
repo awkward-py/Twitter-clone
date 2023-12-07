@@ -14,7 +14,6 @@ Welcome to **Fwitter**, a Twitter clone built using Flutter and powered by Fireb
 
 For a comprehensive list of app features, you can refer to the project section [here](https://github.com/awkward-py/Twitter-clone/projects/1).
 
-
 ### Directory Structure
 
 ```
