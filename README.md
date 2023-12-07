@@ -2,8 +2,6 @@
 
 Welcome to **Fwitter**, a Twitter clone built using Flutter and powered by Firebase for authentication, real-time updates, Firestore database, and storage. Fwitter aims to replicate the essential features of Twitter in a Flutter app.
 
-![GitHub stars](https://img.shields.io/github/stars/awkward-py/Twitter-clone?style=social)
-![GitHub forks](https://img.shields.io/github/forks/awkward-py/Twitter-clone?style=social)
 
 
 ### Features
